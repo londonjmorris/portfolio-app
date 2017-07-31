@@ -10,7 +10,7 @@ export default class BaseLayout extends Component {
 
   render(){
     return(
-      <div>
+      <div className="page">
         <Navigation />
         {this.props.children}
       </div>

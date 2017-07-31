@@ -1,3 +1,16 @@
-.App {
+.page {
   text-align: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link{
+  color: black;
+}
+
+.selected{
+  color: red;
 }
